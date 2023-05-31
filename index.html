@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox-practice</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="greerings">
+                <div class="container">
+                    <div class="greetings_row">
+                        <div class="greetings_body">
+                            <div class="greetings_title">Hello friend</div>
+                            <ul class="greetings_list">
+                                <li>Практика каждый день</li>
+                                <li>Верстка</li>
+                                <li>Разработка приложений</li>
+                                <li>JS, HTML, CSS, ReactJS, Redux, Typescript</li>
+                            </ul>
+                        </div>
+                        <div class="greetings_image">
+                            <img src="/img/image.jpg" alt="картинка">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-flexbox">
+                <div class="container">
+                    <div class="about-flexbox_row">
+                        <div class="about-flexbox_image">
+                            <img src="/img/basic-terminology.svg" alt="о флексобксе" >
+                        </div>
+                        <div class="about-flexbox_body">
+                            <div class="about-flexbox-title title">Что такое flexbox</div>
+                            <div class="about-flexbox_text">
+                                <p>Flexbox - это целый модуль, содержащий в себе набор свойств и их значений как 
+                                для родителя flex-контейнера так и для его дочерних элементов flex-элементов. 
+                                Основным преимуществом гибкой FLEX разметки является возможность изменять ширину/высоту 
+                                пространство вокруг и порядок flex-элементов, для того чтобы наилучшим образом заполнить
+                                доступное пространство flex-контейнера.</p>
+                                <p>Основным преимуществом гибкой FLEX разметки является возможность изменять ширину/высоту
+                                пространство вокруг и порядок flex-элементов, для того чтобы наилучшим образом заполнить 
+                                доступное пространство flex-контейнера.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="colums">
+                <div class="container">
+                    <div class="colums_title title">Колонки с flex контейнерами</div>
+                    <div class="colums_row">
+                        <div class="colums_column">
+                            <div class="colums_item item">
+                                <div class="item_row">
+                                    <div class="item_image">
+                                        <img src="/img/flex-direction.svg" alt="flex-direction">
+                                    </div>
+                                    <div class="item_body">
+                                        <div class="item_title">flex-direction</div>
+                                        <div class="item_text"><p>This establishes the main-axis, thus defining the direction
+                                             flex items are placed in the flex container. Flexbox is (aside from optional 
+                                             wrapping) a single-direction layout concept. Think of flex items as primarily 
+                                             laying out either in horizontal rows or vertical columns.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colums_column">
+                            <div class="colums_item item">
+                                <div class="item_row">
+                                    <div class="item_image">
+                                        <img src="/img/flex-wrap.svg" alt="flex-direction">
+                                    </div>
+                                    <div class="item_body">
+                                        <div class="item_title">flex-wrap</div>
+                                        <div class="item_text"><p>By default, flex items will all try to fit onto one line.
+                                             You can change that and allow the items to wrap as needed with this property.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colums_column">
+                            <div class="colums_item item">
+                                <div class="item_row">
+                                    <div class="item_image">
+                                        <img src="/img/align-self.svg" alt="flex-direction">
+                                    </div>
+                                    <div class="item_body">
+                                        <div class="item_title">align-self</div>
+                                        <div class="item_text"><p>This allows the default alignment (or the one specified by align-items) 
+                                            to be overridden for individual flex items.
+                                            Please see the align-items explanation to understand the available values.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colums_column">
+                            <div class="colums_item item">
+                                <div class="item_row">
+                                    <div class="item_image">
+                                        <img src="/img/align-items.svg" alt="flex-direction">
+                                    </div>
+                                    <div class="item_body">
+                                        <div class="item_title">align-items</div>
+                                        <div class="item_text"><p>This defines the default behavior for how flex items are
+                                             laid out along the cross axis on the current line. Think of it as the 
+                                             justify-content version for the cross-axis (perpendicular to the main-axis).</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vertical">
+                <div class="container">
+                    <div class="vertical_title title">Вертикальное выравнивание</div>
+                    <div class="vertical_body">
+                        <div class="vertical_row">
+                            <div class="vertical_column">
+                                <div class="vertical_item">
+                                    <div class="vertical_subtitle">Github</div>
+                                    <div class="vertical_label">Shade78</div>
+                                    <div class="vertical_text">Внизу будет кнопка, ведущая на мою страницу на github</div>
+                                    <a href="https://github.com/Shade78" target="_blank" class="vertical_btn">Ссылка</a>
+                                </div>
+                            </div>
+                            <div class="vertical_column">
+                                <div class="vertical_item">
+                                    <div class="vertical_subtitle">Github</div>
+                                    <div class="vertical_label">Shade78</div>
+                                    <div class="vertical_text">Внизу будет кнопка, ведущая на репозиторий копии сайта a2soft.ru
+                                        <br>Текст добавлен для демонтрации выравнивания размеров flex элементов Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ullam error iusto? Optio mollitia odit magnam minima quaerat soluta aliquam tenetur voluptates, perferendis nisi autem assumenda reprehenderit dicta quidem recusandae.
+                                    </div>
+                                    <a href="https://github.com/Shade78/a2soft_Flex" target="_blank" class="vertical_btn">Ссылка</a>
+                                </div>
+                            </div>
+                            <div class="vertical_column">
+                                <div class="vertical_item">
+                                    <div class="vertical_subtitle">Github</div>
+                                    <div class="vertical_label">Shade78</div>
+                                    <div class="vertical_text">Внизу будет кнопка, ведущая на другой репозиторий сайта (SPA)</div>
+                                    <a href="https://github.com/Shade78/CSS-practice" target="_blank" class="vertical_btn">Ссылка</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_row">
+                    <div class="footer_text">
+                        Практика flexbox 2023
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
